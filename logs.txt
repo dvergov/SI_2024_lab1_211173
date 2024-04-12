@@ -1,0 +1,35 @@
+commit 7f4388d069a378f04e012d5961bb870544d56b11 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Dimitar Vergov <dvergov@hotmail.com>
+Date:   Fri Apr 12 23:52:53 2024 +0200
+
+    Calmethod makeBigStringFrom in main class
+
+commit 446a738649d3ba7aa4a8baab25602f7d0585bcd2
+Author: Dimitar Vergov <dvergov@hotmail.com>
+Date:   Fri Apr 12 23:49:57 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit c27715b3dd682096d6cdefcbe808df20f7375d9a (origin/bug1, bug1)
+Author: Dimitar Vergov <dvergov@hotmail.com>
+Date:   Fri Apr 12 23:51:30 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit c43f2139a4dd707ae9f753f3dc210c0c19b348a4
+Author: Dimitar Vergov <dvergov@hotmail.com>
+Date:   Fri Apr 12 23:47:46 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit da51b3d526fff078ee0bb97b25b0644d71936da9
+Author: Dimitar Vergov <dvergov@hotmail.com>
+Date:   Fri Apr 12 23:44:47 2024 +0200
+
+    Add starter code
+
+commit e21c006c34082f7221833a106a37900d91412cd7
+Author: Dimitar Vergov <dvergov@hotmail.com>
+Date:   Fri Apr 12 23:42:39 2024 +0200
+
+    Initial commit

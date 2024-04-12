@@ -1,0 +1,101 @@
+4.
+mkdir  SI_2024_lab1_211173 - создавање на нов локален директориум
+cd SI_2024_lab1_211173 - влез во директориумот
+git init - иницијализација на git во директориумот
+
+5.
+git remote add origin https://github.com/dvergov/-SI_2024_lab1_211173.git -поврзување
+
+6.
+notepad README.md - креирање и додавање на податоци
+git add README.md - додавање на git
+git commit -m "Initial commit"
+
+7.
+ги превзедов линковите мануелно во локалниот репозиториум  и со помош на наредбата
+git add . ги додадов и направив git commit -m со порака "Add starter code"
+
+8.
+git push origin master - синхронизација
+
+9.
+git checkout master - проверка дали сме на мастер
+git checkout -b bug1 - додавање на нова гранка на мастер
+git checkout master - враќање на мастер
+git checkout -b bug2 - додавање на нова гранка од мастер
+
+10.
+git checkout bug1 - префрлање на гранката bug1
+
+11.
+ја поправив гешката 
+git add SILab1_1.java - додавање на промените
+git commit -m "Fix wrong condition in filterOddLengthStrings" - направив commit со дадената порака
+
+12.
+git checkout bug2 - префрлање на гранката bug2
+
+13. 
+поправање на грешката
+git add SILab1_2.java - додавање на промените
+git commit -m "Fix wrong condition in makeBigStringFrom" - направив commit со дадената порака)
+
+14.
+git chechout bug1
+
+15.
+ги направив промените дадов повик до статичкиот метод
+git add SILab1Main.java - да ги додадам промените
+git commit -m "Call method filterOddLengthStrings in main class - направив commit со дадената порака
+
+16.
+git checkout bug2
+
+17.
+ги направив промените дадов повик до статичкиот метод
+git add SILab1Main.java - додавање на промените
+- направив commit со дадената порака
+
+18.
+git push origin master
+git push origin bug1
+git push origin bug2
+
+19. 
+git checkout master
+
+20. 
+git merge bug1 - спојување на двете гранки и во мојот случај не се јави конфликт
+
+21. 
+git push origin master
+git push origin bug1
+git push origin bug2
+
+22. 
+git checkout bug 2
+
+23. 
+git rebase master - се појавија конфликти во фајлот SILab1Main.java мануелно го сменив фајлот со тоа што избришав се што мислев дека не е потребно
+git add SILab1Main.java - за да ги додадам промените
+a потоа направив git rebase --continue - за да продолжи процесот и успешно да заврши
+
+24.
+git checkout master
+
+25.
+git merge bug2 - не се појави конфликт и спојувањето беше успешно
+
+26.
+git push origin master
+git push origin bug1
+git push origin bug2 - се појави конфликт
+
+27.
+git push --force origin bug2
+
+28.
+git add logs.txt - ја креирав датотеката и ги додадов сите git lоgs
+git add 211173.txt - ја креирав датотеката и ја додадов докумнтацијата која ја водев за оваа вежба
+
+
